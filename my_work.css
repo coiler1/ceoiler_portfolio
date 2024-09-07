@@ -166,6 +166,16 @@ body {
     line-height: 70px;
   }
 
+  h3 a {
+    text-decoration: none;
+    color: #005C78;
+  }
+
+
+  h3 a:hover {
+    text-decoration:underline;
+  }
+
   h3 {
     margin-left: 3%;
     width: 100%;
@@ -176,7 +186,6 @@ body {
     font-weight: 300;
     font-size: 38px;
     line-height: 43px;
-
     color: #005C78;
   }
 
@@ -408,11 +417,14 @@ img#insta {
   margin-right: 30px;
 }
 
+
+.follow_insta p:hover {
+  color: wheat;
+  font-weight: 600;
+}
+
 .follow_insta a {
   text-decoration: none;
-}
-.follow_insta a:hover {
-  text-decoration: white underline ;
 }
 
 

@@ -86,8 +86,9 @@ body {
   .follow_insta a {
     text-decoration: none;
   }
-  .follow_insta a:hover {
-    text-decoration: white underline ;
+  .follow_insta p:hover {
+    color: wheat;
+    font-weight: 600;
   }
 
 .footer {
