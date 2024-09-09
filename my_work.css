@@ -57,6 +57,7 @@ body {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
+    margin-right: 20px;
   }
   
   .menu li:hover {
@@ -245,7 +246,6 @@ body {
     font-weight: 200;
     font-style: normal;
     line-height: 20px;
-    
   }
 
   .landscapes_travel {
