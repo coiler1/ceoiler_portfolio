@@ -44,7 +44,7 @@ body {
   .logo {
     font-size: 32px;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 3%;
     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -88,12 +88,12 @@ body {
   /* APPLYING MEDIA QUERIES */
   @media (max-width: 768px) {
    .menu {
-      display:none;
+      display: none;
       position: absolute;
       right: 0px;
       left: 0px;
       width: 100%;
-      text-align:end;
+      text-align: end;
     }
   
     .menu li:hover {
