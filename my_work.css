@@ -144,7 +144,7 @@ body {
   }
 
   #current_game {
-    width: 80%;
+    width: 75%;
     padding-top: 70px;
     font-family: 'Inria Serif';
     font-style: italic;
@@ -238,7 +238,7 @@ body {
     margin: auto;
     text-align: center;
     color: #005C78;
-    line-height: 10px;
+    line-height: 50px;
   }
 
   h5 {
@@ -404,10 +404,10 @@ body {
     text-align: left;
     margin: 0px;
     font-size: 18px;
-    width: 70%;
+    width: 77%;
     padding-top: 50px;
     padding-bottom: 5px;
-
+    line-height: 40px;
   }
 }
 
