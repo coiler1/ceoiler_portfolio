@@ -231,7 +231,7 @@ body {
 
 
   .my_work {
-    width: 70%;
+    width: 60%;
     padding-top: 70px;
     font-family: 'Inria Serif';
     font-size: 30px;
@@ -246,6 +246,7 @@ body {
     font-weight: 200;
     font-style: normal;
     line-height: 30px;
+    font-size: 25px;
   }
 
   .landscapes_travel {
@@ -402,6 +403,7 @@ body {
     font-weight: 200;
     font-style: normal;
     line-height: 25px;
+    font-size: 20px;
   }
 }
 
@@ -421,6 +423,7 @@ body {
     font-weight: 200;
     font-style: normal;
     line-height: 20px;
+    font-size: 15px;
   }
 }
 
