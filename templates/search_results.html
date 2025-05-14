@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnorsAerials</title>
+    <link rel="stylesheet" href="../static/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav_bar">
+        <!-- LOGO -->
+        <div class="logo">ConnorsAerials</div>
+
+        <!-- SEARCH CENTER -->
+
+        <!-- NAV LINKS -->
+        <nav class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <ul class="menu">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('my_work') }}">My Work</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="search-wrapper">
+        <form action="{{ url_for('search_get') }}" method="get">
+            <input type="text" name="query" placeholder="Search images..." />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    
+
+    <div class="my_work">
+        <h1>Search Results</h1>
+    </div>
+
+
+    <div class="row_one">
+        {% for filename in results %}
+            <img src="{{ url_for('static', filename='images/' + filename) }}" style="width: 200px;" />
+        {% endfor %}
+    </div>
+
+    <div class="footer">
+        <div>
+            <p class="follow"> Follow</p>
+        </div>
+        <div class="follow_insta"> 
+            <a href="https://www.instagram.com/oilcan_2"> <img src="../static/icons8-instagram-logo.svg" height="50" width="50" id="insta"alt=""> 
+            <a href="https://www.instagram.com/oilcan_2"><p class="tag">ConnorsAerials</p></a>
+        </div>
+    </div>
+
+</body>
+</html>

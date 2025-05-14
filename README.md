@@ -14,3 +14,6 @@ grad photos and other individual photo shoots, and then bunch of nature shots so
 BLIP: https://huggingface.co/Salesforce/blip-image-captioning-base
 
 CLIP: https://huggingface.co/docs/transformers/model_doc/clip
+
+
+finish up styling for the website and data collection for the results how to get back to the homescreen after entering search results
