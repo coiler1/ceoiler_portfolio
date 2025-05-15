@@ -10,10 +10,3 @@ In additon I need to add a search bar into the UI of the homescreen and probably
 
 Goal is to classify images in a more general sense. My portfolio has photos ranging from sports photos (Lacrosse, volleyball, soccer, football, track, XC, etc), 
 grad photos and other individual photo shoots, and then bunch of nature shots so I would ideally like to classify based off things like sunset, type of sport, features like water, lakes, rivers, beaches, trees, rocks, etc. Much mroe general than a specfic classificition. 
-
-BLIP: https://huggingface.co/Salesforce/blip-image-captioning-base
-
-CLIP: https://huggingface.co/docs/transformers/model_doc/clip
-
-
-finish up styling for the website and data collection for the results how to get back to the homescreen after entering search results
